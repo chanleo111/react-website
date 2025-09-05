@@ -1,0 +1,9 @@
+.about_values{
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 500px;
+    transition: transform 0.3s ease;
+}
