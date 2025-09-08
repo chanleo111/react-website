@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from "../components/Footer";
 
 export default function About() {
+  useEffect(() => {
+      document.title = 'About Us';
+  });
   return (
     <>
       <Header />
@@ -9,6 +13,7 @@ export default function About() {
         <h1 className="text-4xl font-bold text-center mb-8">About Us</h1>
         
       </div>
+      <br></br>
       <div>
         <h2 className="text-4xl font-bold text-center mb-8">Our Mission</h2>
         <p></p>
