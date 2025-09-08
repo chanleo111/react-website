@@ -10,6 +10,7 @@
 
 .me-auto {
     margin-left: auto !important;
+    margin-right: unset !important;
 }
 /* contact page */
 .contact-container {
